@@ -10,11 +10,11 @@ import ToDo from './component/ToDo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-  <Routes>
-    <Route path='/' element = {<App/>}/>
-    <Route path='/CreateNote' element = {<CreateNote/>}/>
-    <Route path='/ToDo' element = {<ToDo/>}/>
-  </Routes>
+    <Routes>
+      <Route path='/' element={<App />} />
+      <Route path='/CreateNote' element={<CreateNote />} />
+      <Route path='/ToDo' element={<ToDo />} />
+    </Routes>
   </BrowserRouter>
 );
 
